@@ -1,0 +1,23 @@
+{
+  "name": "courier-web-ui",
+  "version": "1.0.0",
+  "description": "A International Courier Service Provider company website.",
+  "main": "index.js",
+  "scripts": {
+    "build:tailwinds": "npx tailwindcss -i src/style.css -o css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RifatdaM/courier-web-UI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RifatdaM/courier-web-UI/issues"
+  },
+  "homepage": "https://github.com/RifatdaM/courier-web-UI#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.11"
+  }
+}
