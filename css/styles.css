@@ -423,24 +423,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+@font-face {
+  font-family: "Helvetica";
+
+  src: url("../fonts/HelveticaNowDisplay-ExtBlk.woff2") format("woff2"),
+      url("../fonts/HelveticaNowDisplay-ExtBlk.woff") format("woff");
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-green-500 {
-  --tw-text-opacity: 1;
-  color: rgb(34 197 94 / var(--tw-text-opacity));
-}
-
-@media (min-width: 768px) {
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
+.font-helv {
+  font-family: 'Helvetica' , sans-serif;
 }

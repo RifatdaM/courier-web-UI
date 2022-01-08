@@ -7,7 +7,7 @@
   "editor.formatOnSave": true,
   "[javascript]": {
     "editor.formatOnSave": false,
-    "editor.defaultFormatter": null
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
     "editor.formatOnSave": false,
@@ -26,5 +26,8 @@
   "files.associations": {
     "*.html": "html"
   },
-  
+
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "liveServer.settings.port": 5501
 }
