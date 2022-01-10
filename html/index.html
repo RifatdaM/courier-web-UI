@@ -7,11 +7,56 @@
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css"
+      integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <title>Home</title>
   </head>
-  <body></body>
+  <body>
+    <header class="font-poppins">
+      <!-- nav bar -->
+      <nav class="container flex items-center py-4">
+        <div class="py-1 flex item-center gap-2 cursor-pointer">
+          <img
+            class="md:h-16 md:w-auto h-12 w-auto"
+            src="../img/logo.svg"
+            alt="YF Trade Logistics"
+          />
+        </div>
+        <ul
+          class="hidden md:flex flex-1 justify-end items-center gap-8 text-dark uppercase"
+        >
+          <li class="nav-menu">home</li>
+          <li class="nav-menu">Services</li>
+          <li class="nav-menu">Track</li>
+          <li class="nav-menu">About Us</li>
+          <li class="nav-menu">FAQs</li>
+          <button
+            class="bg-primary-main text-light py-2 px-5 shadow-md rounded-md font-semibold text-[16px] hover:-translate-y-0.5 hover:shadow-lg active:translate-y-0 duration-300 ease-in-out transform"
+          >
+            Contact Us
+          </button>
+        </ul>
+        <div class="flex sm:hidden flex-1 justify-end">
+          <i class="fas fa-bars text-2xl"></i>
+        </div>
+      </nav>
+    </header>
+  </body>
 </html>

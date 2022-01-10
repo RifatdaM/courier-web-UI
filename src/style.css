@@ -9,3 +9,7 @@
       url("../fonts/HelveticaNowDisplay-ExtBlk.woff") format("woff");
   }
 }
+
+.nav-menu {
+  @apply cursor-pointer font-normal hover:text-primary-main ease-in-out duration-300 text-[16px];
+}
