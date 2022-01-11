@@ -28,7 +28,9 @@
     />
     <title>Home</title>
   </head>
-  <body>
+
+  <body class="">
+    <!-- Header -->
     <header class="font-poppins">
       <!-- nav bar -->
       <nav class="container flex items-center py-4">
@@ -58,5 +60,59 @@
         </div>
       </nav>
     </header>
+    <!-- Main -->
+    <main>
+      <!-- Hero -->
+      <section id="hero">
+        <div
+          class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-10 lg:mt-16"
+        >
+          <!-- Content -->
+          <div class="flex flex-1 flex-col item-center lg:align-start">
+            <h1
+              class="text-primary-dark md:text-3xl lg:text-4xl text-center lg:text-left mb-6 font-helv"
+            >
+              Be Conntect Globally
+            </h1>
+            <p
+              class="text-gray-700 text-sm lg:text-lg text-center lg:text-left mb-6"
+            >
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio debitis fuga quisquam hic quasi velit iste inventore
+              deserunt est nostrum, vel cum ad repellat laudantium officia quam
+              animi magnam numquam ullam in tenetur dicta sed nulla! Excepturi
+              porro illo fuga reprehenderit eaque.
+            </p>
+          </div>
+          <!-- Image -->
+          <div
+            class="flex lg:justify-end justify-center flex-1 mb-10 md:mb-4 lg:mb-0 z-10 relative"
+          >
+            <img
+              src="/img/hero2.jpg"
+              alt=""
+              class="rounded-tl-[60px] rounded-br-[60px] w-5/6 h-auto sm:w-3/4 sm:h-auto md:w-2/4 md:h-auto lg:w-5/6 2xl:h-auto"
+            />
+
+            <div class="absolute w-auto h-2">
+              <img
+                src="/img/hero2.jpg"
+                alt=""
+                class="rounded-tl-[60px] rounded-br-[60px] sm:w-3/4 sm:h-auto md:w-2/4 md:h-auto lg:w-5/6 2xl:h-auto"
+              />
+            </div>
+          </div>
+          <!-- <div
+            class="flex lg:justify-end justify-center flex-1 mb-10 md:mb-4 lg:mb-0 z-10"
+          >
+            <img
+              src="/img/hero.png"
+              alt=""
+              class="w-5/6 h-auto sm:w-3/4 sm:h-auto md:w-2/4 md:h-auto lg:w-5/6 2xl:h-auto"
+            />
+          </div> -->
+        </div>
+      </section>
+    </main>
   </body>
 </html>
