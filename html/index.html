@@ -29,7 +29,7 @@
     <title>Home</title>
   </head>
 
-  <body class="">
+  <body class="overflow-x-hidden">
     <!-- Header -->
     <header class="font-poppins">
       <!-- nav bar -->
@@ -42,18 +42,14 @@
           />
         </div>
         <ul
-          class="hidden md:flex flex-1 justify-end items-center gap-8 text-dark uppercase"
+          class="hidden md:flex flex-1 justify-end items-center gap-6 2xl:gap-8 text-dark uppercase"
         >
           <li class="nav-menu">home</li>
           <li class="nav-menu">Services</li>
           <li class="nav-menu">Track</li>
           <li class="nav-menu">About Us</li>
           <li class="nav-menu">FAQs</li>
-          <button
-            class="bg-primary-main text-light py-2 px-5 shadow-md rounded-md font-semibold text-[16px] hover:-translate-y-0.5 hover:shadow-lg active:translate-y-0 duration-300 ease-in-out transform"
-          >
-            Contact Us
-          </button>
+          <button class="btn-primary">Contact Us</button>
         </ul>
         <div class="flex sm:hidden flex-1 justify-end">
           <i class="fas fa-bars text-2xl"></i>
@@ -70,12 +66,12 @@
           <!-- Content -->
           <div class="flex flex-1 flex-col item-center lg:align-start">
             <h1
-              class="text-primary-dark md:text-3xl lg:text-4xl text-center lg:text-left mb-6 font-helv"
+              class="text-dark md:text-2xl lg:text-[28px] 2xl:text-4xl text-center lg:text-left mb-6 font-helv"
             >
-              Be Conntect Globally
+              Be Conntected Globally
             </h1>
             <p
-              class="text-gray-700 text-sm lg:text-lg text-center lg:text-left mb-6"
+              class="text-gray-700 text-sm lg:text-sm 2xl:text-lg text-center lg:text-left mb-6"
             >
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Distinctio debitis fuga quisquam hic quasi velit iste inventore
@@ -83,26 +79,12 @@
               animi magnam numquam ullam in tenetur dicta sed nulla! Excepturi
               porro illo fuga reprehenderit eaque.
             </p>
+
+            <button class="btn-primary w-1/4">Track</button>
           </div>
+
           <!-- Image -->
           <div
-            class="flex lg:justify-end justify-center flex-1 mb-10 md:mb-4 lg:mb-0 z-10 relative"
-          >
-            <img
-              src="/img/hero2.jpg"
-              alt=""
-              class="rounded-tl-[60px] rounded-br-[60px] w-5/6 h-auto sm:w-3/4 sm:h-auto md:w-2/4 md:h-auto lg:w-5/6 2xl:h-auto"
-            />
-
-            <div class="absolute w-auto h-2">
-              <img
-                src="/img/hero2.jpg"
-                alt=""
-                class="rounded-tl-[60px] rounded-br-[60px] sm:w-3/4 sm:h-auto md:w-2/4 md:h-auto lg:w-5/6 2xl:h-auto"
-              />
-            </div>
-          </div>
-          <!-- <div
             class="flex lg:justify-end justify-center flex-1 mb-10 md:mb-4 lg:mb-0 z-10"
           >
             <img
@@ -110,7 +92,85 @@
               alt=""
               class="w-5/6 h-auto sm:w-3/4 sm:h-auto md:w-2/4 md:h-auto lg:w-5/6 2xl:h-auto"
             />
-          </div> -->
+          </div>
+          <div
+            class="absolute -z-10 -right-[80px] -top-[10px] md:-right-[200px] md:-top-[420px] 2xl:-right-[800px] 2xl:-top-[900px] lg:-right-[450px] lg:-top-[500px] xl:-right-[600px] xl:-top-[600px]"
+          >
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill="#000b49"
+                d="M45.2,-48.3C51.3,-39.1,44.1,-19.5,42.9,-1.1C41.8,17.3,46.9,34.6,40.8,46.6C34.6,58.6,17.3,65.2,-1.1,66.3C-19.5,67.4,-39,62.9,-55,50.9C-71,39,-83.6,19.5,-80.4,3.2C-77.3,-13.1,-58.3,-26.2,-42.3,-35.5C-26.2,-44.7,-13.1,-50.1,3.2,-53.3C19.5,-56.5,39.1,-57.5,45.2,-48.3Z"
+                transform="translate(100 100)"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <!-- We Provide -->
+      <section id="We-provide" class="bg-background py-20 mt-10 2xl:mt-6">
+        <div class="container">
+          <div class="sm:w-3/4 lg:5/12 mx-auto py-2">
+            <h2 class="text-[28px] text-center text-accent font-helv">
+              Why Us?
+            </h2>
+          </div>
+          <div class="mt-8 grid grid-cols-3 gap-6">
+            <div class="why-us-card">
+              <h3>Fast Delivery</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                sed est quidem voluptas amet. Maxime sequi veritatis nesciunt
+                consequatur, repellendus deserunt corrupti ad corporis sit ex
+                pariatur blanditiis doloremque ipsum.
+              </p>
+            </div>
+            <div class="why-us-card">
+              <h3>Fast Delivery</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                sed est quidem voluptas amet. Maxime sequi veritatis nesciunt
+                consequatur, repellendus deserunt corrupti ad corporis sit ex
+                pariatur blanditiis doloremque ipsum.
+              </p>
+            </div>
+            <div class="why-us-card">
+              <h3>Fast Delivery</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                sed est quidem voluptas amet. Maxime sequi veritatis nesciunt
+                consequatur, repellendus deserunt corrupti ad corporis sit ex
+                pariatur blanditiis doloremque ipsum.
+              </p>
+            </div>
+            <div class="why-us-card">
+              <h3>Fast Delivery</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                sed est quidem voluptas amet. Maxime sequi veritatis nesciunt
+                consequatur, repellendus deserunt corrupti ad corporis sit ex
+                pariatur blanditiis doloremque ipsum.
+              </p>
+            </div>
+            <div class="why-us-card">
+              <h3>Fast Delivery</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                sed est quidem voluptas amet. Maxime sequi veritatis nesciunt
+                consequatur, repellendus deserunt corrupti ad corporis sit ex
+                pariatur blanditiis doloremque ipsum.
+              </p>
+            </div>
+            <div class="why-us-card">
+              <h3>Fast Delivery</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                sed est quidem voluptas amet. Maxime sequi veritatis nesciunt
+                consequatur, repellendus deserunt corrupti ad corporis sit ex
+                pariatur blanditiis doloremque ipsum.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
