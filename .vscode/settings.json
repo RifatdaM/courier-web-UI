@@ -29,5 +29,8 @@
 
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  }
 }

@@ -19,3 +19,9 @@
 .why-us-card {
   @apply h-48 p-4 bg-white w-10/12 rounded-md shadow py-6 transform transition duration-500 flex flex-wrap justify-center;
 }
+.service-card {
+  @apply p-10 md:px-7 xl:px-10 rounded-[20px] shadow-md hover:shadow-lg mb-8 bg-gray-50;
+}
+.service-icon {
+  @apply w-[70px] h-[70px] flex items-center justify-center bg-primary-main rounded-2xl mb-8;
+}
