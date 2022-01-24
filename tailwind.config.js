@@ -5,6 +5,7 @@ module.exports = {
       fontFamily: {
         poppins: "'Poppins', sans-serif",
         helv: "'Helvetica' , sans-serif",
+        bebas:"'Bebas Neue', sans-serif",
       },
       colors: {
         primary: {
