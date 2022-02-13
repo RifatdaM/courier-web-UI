@@ -11,7 +11,10 @@
 }
 
 .nav-menu {
-  @apply cursor-pointer font-normal text-light md:text-[12px] hover:text-primary-main ease-in-out duration-300 2xl:text-[16px];
+  @apply cursor-pointer font-normal md:text-[12px] hover:text-primary-main ease-in-out duration-300 2xl:text-[16px];
+}
+.navActive {
+  @apply text-primary-main font-semibold;
 }
 .btn-primary {
   @apply bg-primary-main md:text-[12px] 2xl:text-[16px] text-white rounded-md px-8 py-3 transition transform duration-300 ease-in-out hover:bg-primary-main hover:shadow-md hover:-translate-y-0.5 active:bg-primary-main active:translate-y-0 uppercase font-semibold outline-none;

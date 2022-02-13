@@ -872,6 +872,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 600;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -899,6 +903,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-dark {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-primary-main {
@@ -972,8 +981,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .nav-menu {
   cursor: pointer;
   font-weight: 400;
-  --tw-text-opacity: 1;
-  color: rgb(249 251 254 / var(--tw-text-opacity));
   transition-duration: 300ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -993,6 +1000,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   .nav-menu {
     font-size: 16px;
   }
+}
+
+.navActive {
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(238 41 38 / var(--tw-text-opacity));
 }
 
 .btn-primary {
@@ -1366,6 +1379,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xl\:w-24 {
     width: 6rem;
+  }
+
+  .xl\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 
   .xl\:text-base {
