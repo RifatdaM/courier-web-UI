@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css"
+      integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <title>Home</title>
+  </head>
+  <body class="font-poppins">
+    <header class="shadow-xl py-4 sticky z-30 top-0 bg-white">
+      <!-- mobile menu -->
+      <nav class="container flex justify-between items-center">
+        <a href="">
+          <img src="/img/logo.svg" alt="" class="h-8 w-auto lg:h-10" />
+        </a>
+
+        <!-- desktop menu -->
+        <ul class="hidden lg:flex gap-10">
+          <li class="nav-link navActive"><a href="/">Home</a></li>
+          <li class="nav-link"><a href="">Services</a></li>
+          <li class="nav-link"><a href="">About us</a></li>
+          <li class="nav-link"><a href="">FAQ</a></li>
+          <li class="nav-link"><a href="">Contact Us</a></li>
+        </ul>
+
+        <!-- buttons -->
+        <div class="flex items-center gap-4">
+          <button
+            class="px-4 py-1 border-2 border-primary-main text-base rounded-md text-primary-main font-semibold hover:bg-primary-main hover:text-white"
+          >
+            Track
+          </button>
+          <button class="text-primary-main lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              class="w-9 h-9"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- hero section -->
+      <section>
+        <div class="h-[50vh] lg:h-[70vh] overflow-hidden w-auto relative">
+          <div
+            class="absolute h-full gap-4 w-full text-white z-10 flex flex-col justify-center items-center text-center"
+          >
+            <h4 class="">
+              Welcome to <span class="text-accent">Parcel Bhai</span>
+            </h4>
+            <h1 class="text-4xl lg:text-6xl font-bold w-[95%] lg:w-[50%]">
+              We Provide best Logistics and parcel services
+            </h1>
+          </div>
+          <div class="h-full w-full bg-black/60 absolute top-0 right-0"></div>
+          <img
+            src="/img/hero-img.webp"
+            alt=""
+            class="h-full object-cover w-full"
+          />
+        </div>
+      </section>
+
+      <!-- order track -->
+      <section class="container flex justify-center items-center relative">
+        <div
+          class="w-[90%] lg:w-[50%] p-6 bg-white shadow-xl rounded-xl z-20 absolute"
+        >
+          <h3 class="pb-1 font-semibold text-lg text-center lg:text-start">
+            Track Your Order
+          </h3>
+          <p class="text-sm text-center pb-4 lg:text-start text-gray-700">
+            You can track your package easily
+          </p>
+          <form>
+            <!-- <label
+              for="search"
+              class="mb-2 text-sm font-medium text-gray-900 sr-only"
+              >Search</label
+            > -->
+            <div class="relative">
+              <div
+                class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-5 h-5 text-gray-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  ></path>
+                </svg>
+              </div>
+              <input
+                type="search"
+                id="search"
+                class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-0 focus:outline-0"
+                placeholder="Enter tracking number"
+                required
+              />
+              <button
+                type="submit"
+                class="text-white hidden md:block absolute right-2.5 bottom-2.5 bg-primary-main hover:bg-primary-30% focus:ring-0 focus:outline-none font-medium rounded-lg text-sm px-4 py-2"
+              >
+                Search
+              </button>
+              <button
+                type="submit"
+                class="text-white absolute md:hidden right-2.5 bottom-2.5 bg-primary-main hover:bg-primary-30% focus:ring-0 focus:outline-none font-medium rounded-lg text-sm px-4 py-2"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-5 h-5 text-gray-500"
+                  fill="none"
+                  stroke="#fff"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- company key point -->
+      <section class="container mt-32">
+        <div class="grid grid-cols-2">
+          <div class="aspect-square rounded-lg w-3/4 h-full overflow-hidden">
+            <img
+              src="../img/hero-img.webp"
+              alt=""
+              class="h-full w-full object-cover"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

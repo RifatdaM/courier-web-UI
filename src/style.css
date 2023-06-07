@@ -1,17 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* 
 @layer base {
   @font-face {
     font-family: "Helvetica";
     src: url("../fonts/HelveticaNowDisplay-ExtBlk.woff2") format("woff2"),
       url("../fonts/HelveticaNowDisplay-ExtBlk.woff") format("woff");
   }
-}
+} */
 
-.nav-menu {
-  @apply cursor-pointer font-normal md:text-[12px] hover:text-primary-main ease-in-out duration-300 2xl:text-[16px];
+.nav-link {
+  @apply cursor-pointer font-semibold md:text-[12px] hover:text-primary-main ease-in-out duration-100 2xl:text-[16px];
 }
 .navActive {
   @apply text-primary-main font-semibold;

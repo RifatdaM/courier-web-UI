@@ -9,11 +9,12 @@ module.exports = {
       },
       colors: {
         primary: {
-          main: "#ee2926",
-          dark: "#691210",
-          light: "#f79f9e",
+          main: "#066163",
+          "30%": "#044445",
+          dark: "#010a0a",
+          light: "#e6efef",
         },
-        accent: "#000b49",
+        accent: "#fc4442",
         background: "#F1F2F5",
         grayCustom: "#6b7280",
         disable: "#d1d5db",
