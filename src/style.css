@@ -19,6 +19,9 @@
 .btn-primary {
   @apply bg-primary-main md:text-[12px] 2xl:text-[16px] text-white rounded-md px-8 py-3 transition transform duration-300 ease-in-out hover:bg-primary-main hover:shadow-md hover:-translate-y-0.5 active:bg-primary-main active:translate-y-0 uppercase font-semibold outline-none;
 }
+.btn-secondary {
+  @apply px-5 py-3 text-base font-medium text-center text-white bg-accent rounded-lg hover:bg-white hover:text-accent focus:ring-0 focus:outline-none focus:ring-blue-300;
+}
 .why-us-card {
   @apply h-48 p-4 bg-white w-10/12 rounded-md shadow py-6 transform transition duration-500 flex flex-wrap justify-center;
 }

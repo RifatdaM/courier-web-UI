@@ -15,7 +15,7 @@ module.exports = {
           light: "#e6efef",
         },
         accent: "#fc4442",
-        background: "#F1F2F5",
+        background: "#F7F8F9",
         grayCustom: "#6b7280",
         disable: "#d1d5db",
         dark: "#111827",
