@@ -31,3 +31,14 @@
 .service-icon {
   @apply w-[70px] h-[70px] flex items-center justify-center bg-primary-main rounded-2xl mb-8;
 }
+.faq-item:not(:last-child) {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.faq-item .answer {
+  display: none;
+}
+
+.faq-item.active .answer {
+  display: block;
+}
