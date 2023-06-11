@@ -17,7 +17,7 @@
   @apply text-primary-main font-semibold;
 }
 .btn-primary {
-  @apply bg-primary-main md:text-[12px] 2xl:text-[16px] text-white rounded-md px-8 py-3 transition transform duration-300 ease-in-out hover:bg-primary-main hover:shadow-md hover:-translate-y-0.5 active:bg-primary-main active:translate-y-0 uppercase font-semibold outline-none;
+  @apply text-white bg-primary-main hover:bg-primary-30%  font-medium rounded-lg text-sm px-5 py-2.5;
 }
 .btn-secondary {
   @apply px-5 py-3 text-base font-medium text-center text-white bg-accent rounded-lg hover:bg-white hover:text-accent focus:ring-0 focus:outline-none focus:ring-blue-300;
@@ -41,4 +41,15 @@
 
 .faq-item.active .answer {
   display: block;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
 }
