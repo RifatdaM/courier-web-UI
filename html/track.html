@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css"
+      integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <title>Home</title>
+  </head>
+  <body>
+    <header class="shadow-xl py-4 sticky z-30 top-0 bg-white">
+      <!-- mobile menu -->
+      <nav class="container flex justify-between items-center">
+        <a href="">
+          <img src="/img/logo.svg" alt="" class="h-8 w-auto lg:h-10" />
+        </a>
+
+        <!-- desktop menu -->
+        <ul class="hidden lg:flex gap-10">
+          <li class="nav-link navActive"><a href="index.html">Home</a></li>
+          <li class="nav-link"><a href="services.html">Services</a></li>
+          <li class="nav-link"><a href="aboutUs.html">About us</a></li>
+          <li class="nav-link"><a href="faqs.html">FAQ</a></li>
+          <li class="nav-link"><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+        <!-- buttons -->
+        <div class="flex items-center gap-4">
+          <a
+            href="login.html"
+            class="px-4 py-1 border-2 border-primary-main text-base rounded-md text-primary-main font-semibold hover:bg-primary-main hover:text-white"
+          >
+            Login
+          </a>
+          <a
+            href="registration.html"
+            class="px-4 py-1 hidden lg:block text-base rounded-md text-primary-main font-semibold"
+          >
+            Registration
+          </a>
+          <button class="text-primary-main lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              class="w-9 h-9"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
